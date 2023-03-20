@@ -1,0 +1,154 @@
+
+.aaaa{
+    color: aliceblue;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section{
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    padding-bottom: 25px;
+}
+
+.founder{
+    border-radius: 50%;
+}
+.sm-handler a{
+    background-color: rgba(103, 98, 98, 0.1);
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    font-size: larger;
+}
+.sm-handler a:hover{
+  background-color: rgb(30, 30,30, 25%);
+}
+.sm-handler a i{
+    margin: 5px;
+}
+.yt-handel{
+    color: #ff0000;
+}
+.fb-handel{
+    color: #3b5998;
+}
+.it-handel{
+    color: #dd2a7b;
+}
+.about_us{
+    margin: 30px;
+}
+.about_title{
+    font-size: 1.45em;
+    padding: 10px 10px;
+    color: #120f5e;
+}
+.about_content{
+    color: #1c1a3a;
+    font-weight: bolder;
+    padding-bottom: 10px 0px 20px 0px;
+
+}
+footer{
+    display: flex;
+    background-color: grey;
+}
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .middle-left {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+  }
+ .top-right{
+    position: absolute;
+    top: 2px;
+    left: 40%;
+    padding-top: 20px;
+ }
+#textstyle{
+    font-family: 'Tangerine', serif;
+   font-weight: 900;
+   font-size: 60px;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 13px;
+    margin: 5px 200px;
+}
+.div1{
+    border-radius: 7px;
+    background-color: #ffffff;
+    line-height: 23px;
+    font-weight: 300;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.36);
+}
+.imgradious{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.div1:hover {
+    transform: scale(1.05); 
+  } 
+.explore{
+    width: 140px;
+    height: 30px;
+    background-color: #ff6a00;
+    margin: 10px 40px;
+    border-radius: 20px;
+}
+.explore:hover{
+    transform: scale(1.05);
+    background-color: #ff0000;
+}
+.destination{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+    margin: 5px 200px;
+    padding-bottom: 30px;
+}
+.destination1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+    margin: 5px 200px;
+}
+.dsc{
+    background-color: rgb(240, 240, 241);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.destshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  
+}
+.destshadow:hover{
+    transform: scale3d(1.04,1.04,1.04);
+}
+.food{
+    background-color: rgba(228, 237, 220, 0.967);
+}
+.culture{
+    background-color: rgb(240, 253, 253);
+}
